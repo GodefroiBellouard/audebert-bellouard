@@ -31,12 +31,15 @@ Create your branch:
 Do the modification you want on the project. Add the modification you have made on your branch.
 
 ``git add --all``
+
 ``git commit -m "Summarize the modification you have made"``
+
 ``git push``
 
 Merge your branch with the master branch:
 
 ``git checkout master``
+
 ``git merge your_meaningful_branch_name``
 
 Delete your old branch:
